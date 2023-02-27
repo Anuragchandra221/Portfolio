@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='mx-3 mx-lg-auto navb'>
         <nav className="navbar navbar-expand-lg navbar-light mx-auto">
-        <a className="navbar-brand" href="#">Hidden brand</a>
+        <a className="navbar-brand" href="#">AnuragChandra</a>
         <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -17,7 +17,7 @@ function Navbar() {
                 <a className="nav-link mr-lg-3" href="#">What I Do?</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link mr-lg-3" href="#">Projects</a>
+                <a className="nav-link mr-lg-3" href="#portfolio">Projects</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link mr-lg-3" href="#">Thanks to</a>

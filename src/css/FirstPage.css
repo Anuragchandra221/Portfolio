@@ -5,6 +5,7 @@
     margin: auto;
     border-radius: 30px;
     position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .navb{
     position: absolute;
@@ -37,6 +38,7 @@
 }
 .icons i{
     font-size: x-large;
+    cursor: pointer;
     background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
@@ -53,6 +55,7 @@
     color: #F1B8D2;
     border: 1px solid #F1B8D2;
     border-radius: 10px;
+    cursor: pointer;
 }
 .btn2{
     width: 14em;
@@ -63,6 +66,7 @@
     background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 .buttons{
     text-align: start;
@@ -73,12 +77,15 @@
         flex-direction: column-reverse;
     }
     .btn1, .btn2{
-        width: 48%;
+        width: 49%;
     }
     .navbar-collapse{
         text-align: start;
         background-color: #fff;
         z-index: 2;
+    }
+    .navbar-toggler{
+        outline: none;
     }
     .description{
         font-weight: 500;
@@ -94,6 +101,13 @@
     }
     .btn1, .btn2{
         width: 100%;
+    }
+    .intro{
+        text-align: start;
+        font-size: large;
+    }
+    .description{
+        font-size: larger;
     }
 }
 @media screen and (min-width: 992px){
