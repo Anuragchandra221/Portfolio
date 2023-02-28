@@ -25,6 +25,14 @@ body{
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.moreButton{
+  background-color: inherit;
+  color:#fff;
+  font-size: large;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
 
 .App-link {
   color: #61dafb;

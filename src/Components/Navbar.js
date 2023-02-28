@@ -20,7 +20,10 @@ function Navbar() {
                 <a className="nav-link mr-lg-3" href="#portfolio">Projects</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link mr-lg-3" href="#">Thanks to</a>
+                <a className="nav-link mr-lg-3" href="#certification">Certifications</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link mr-lg-3" href="#certification">Thanks to</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link mr-lg-3" href="#">Connect</a>

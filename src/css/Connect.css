@@ -1,0 +1,38 @@
+.connect{
+    width: 90%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.colorText{
+    background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+.connectBtn2{
+    width: 14em;
+    height: 2.5em;
+    border: none;
+    background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+    .conrow{
+        width: 100%;
+    }
+    .colorText{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 992px){
+    .conrow{
+        width: 80%;
+    }
+}

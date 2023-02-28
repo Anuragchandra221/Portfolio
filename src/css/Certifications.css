@@ -1,0 +1,42 @@
+.certification{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.certifications{
+    width: 70%;
+}
+#moreCertificate{
+    display: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    
+}
+.certificateImg{
+    width: 70%;
+    height: 90%;
+    border-radius: 10px;
+}
+.certUniversity{
+    font-size: medium;
+    font-weight: 500;
+    text-align: start;
+}
+.certPlatform{
+    font-size: large;
+    font-weight: 500;
+    text-align: start;
+    opacity: .7;
+}
+.university{
+    opacity: .7;
+}
+.instructor{
+    opacity: .9;
+}
+@media only screen and (max-width: 992px) {
+    .certifications{
+        width: 90%;
+    }
+}
