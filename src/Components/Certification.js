@@ -8,7 +8,7 @@ function Certification(props) {
             <div className='col-lg-6 projectIntro'>
                 <p className='projectTitle ml-lg-5 px-4 pl-lg-5 mb-3 mt-5 mt-lg-0'>{props.title}</p>
                 <p className='certPlatform ml-lg-5 px-4 pl-lg-5 pb-0 mb-1'>{props.platform}</p>
-                <p className='certUniversity ml-lg-5 px-4 pl-lg-5 mb-4'> <span className='university'>{props.university}, By </span><span className='instructor'>{props.instructor}</span></p>
+                <p className='certUniversity ml-lg-5 px-4 pl-lg-5 mb-4'> <span className='university'>{props.university}{props.university?props.university+', ' :<></>}By </span><span className='instructor'>{props.instructor}</span></p>
                 <p className='projectText ml-lg-5 px-4 pl-lg-5 mb-4'>{props.description}</p>
                 <div style={{textAlign: 'start'}} className="ml-lg-5 px-4 pl-lg-5">
                     <a target="_blank" href={props.link} className='mr-3'><button className='projectButton1 mb-2'>View Course</button></a>

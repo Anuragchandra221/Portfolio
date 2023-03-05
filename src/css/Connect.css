@@ -12,7 +12,7 @@
     -webkit-background-clip: text;
     font-weight: bold;
 }
-.connectBtn2{
+.connectBtn1{
     width: 14em;
     height: 2.5em;
     border: none;
@@ -21,7 +21,13 @@
     background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     color: #fff;
     border-radius: 10px;
+    transition-duration: 0.3s;
     cursor: pointer;
+}
+.connectBtn1:hover{
+    border: 1px solid #F1B8D2;
+    background: #fff;
+    color: #F1B8D2;
 }
 @media only screen and (max-width: 768px){
     .conrow{

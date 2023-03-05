@@ -16,10 +16,12 @@
     text-align: start;
     font-size: larger;
     letter-spacing: .5px;
+    font-weight: 400;
 }
 .name{
     font-size: x-large;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 .image{
     width: 60%;
@@ -30,7 +32,7 @@
     font-size: x-large;
     line-height: 1.5em;
     letter-spacing: .5px;
-    font-weight: bold;
+    font-weight: 400;
     opacity: .6;
 }
 .icons{
@@ -50,16 +52,24 @@
 .btn1{
     width: 14rem;
     height: 2.5em;
-    border: none;
     background-color: #fff;
     color: #F1B8D2;
     border: 1px solid #F1B8D2;
     border-radius: 10px;
     cursor: pointer;
+    transition-duration: 0.3s;
+}
+.btn1:hover{
+    background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    color: #fff;
+    border: none;
 }
 .btn2{
     width: 14em;
     height: 2.5em;
+    transition-duration: 0.3s;
     border: none;
     background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
@@ -68,10 +78,21 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.btn2:hover{
+    border: 1px solid #F1B8D2;
+    background: #fff;
+    color: #F1B8D2;
+}
 .buttons{
     text-align: start;
 }
-
+.me{
+    width: 15%;
+    border-radius: 50%;
+  }
+.navbar-brand{
+    text-align: start;
+  }
 @media only screen and (max-width: 992px) {
     .first{
         flex-direction: column-reverse;
@@ -88,12 +109,13 @@
         outline: none;
     }
     .description{
-        font-weight: 500;
+        font-weight: 400;
         opacity: .6;
     }
     .image{
         width: 50%;
     }
+    
 }
 @media only screen and (max-width: 768px){
     .image{
@@ -102,12 +124,19 @@
     .btn1, .btn2{
         width: 100%;
     }
+    .navbar-brand{
+        width: 13%;
+      }
+      .me{
+        width: 100%;
+        border-radius: 50%;
+      }
     .intro{
         text-align: start;
         font-size: large;
     }
     .description{
-        font-size: larger;
+        font-size: large;
     }
 }
 @media screen and (min-width: 992px){

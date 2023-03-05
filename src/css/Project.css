@@ -11,19 +11,25 @@
     width: 70%;
 }
 .moreProjectsHide{
-    display: none;
+    visibility: none;
+    opacity: 0;
+    height: 0;
+    transform: translateX(-50%);
 }
 .moreProjects{
-    display: block;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    transition: all 2s ease;
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+    transform: translateX(0);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
 }
 .projectText{
     text-align: start;
     font-size: large;
     line-height: 1.6;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 .projectIntro{
     display: flex;
@@ -43,7 +49,15 @@
     color: #F1B8D2;
     border: 1px solid #F1B8D2;
     border-radius: 10px;
+    transition-duration: 0.3s;
     cursor: pointer;
+}
+.projectButton1:hover{
+    border: none;
+    background: -moz-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
+    color: #fff;
 }
 .projectButton2{
     width: 14em;
@@ -53,8 +67,14 @@
     background: -webkit-linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     background: linear-gradient(120deg,rgba(149, 187, 233,.8),rgba(241, 184, 210,.74));
     color: #fff;
+    transition-duration: 0.3s;
     border-radius: 10px;
     cursor: pointer;
+}
+.projectButton2:hover{
+    border: 1px solid #F1B8D2;
+    background: #fff;
+    color: #F1B8D2;
 }
 @media only screen and (max-width: 992px) {
     .projectDiv{
@@ -78,7 +98,7 @@
         text-align: start;
         font-size: 17px;
         line-height: 1.6;
-        opacity: 0.9;
+        opacity: 0.7;
     }
 }
 @media screen and (min-width: 992px){
