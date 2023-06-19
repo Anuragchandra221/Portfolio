@@ -23,7 +23,7 @@ function Connect() {
             </div>
         </div>
         <div className='buttons mx-auto' style={{textAlign: 'center'}} >
-            <a target="_blank" href='https://drive.google.com/file/d/18sxeUAmyyeT5pki8BYyKd8wx2FwBn6Ph/view?usp=sharing'><button className='connectBtn1 mr-lg-3  mb-2'>Resume</button></a>
+            <a target="_blank" href='https://drive.google.com/file/d/1-bJyRNl-TF8navhHyHVQCGI1SHg_sfFb/view?usp=sharing'><button className='connectBtn1 mr-lg-3  mb-2'>Resume</button></a>
             <a href='mailto:pothaluranurag2002@google.com'><button className='connectBtn1'>Mail me</button></a>
         </div>
         

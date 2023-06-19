@@ -21,11 +21,20 @@ function Portfolio() {
     <AnimationOnScroll className="hidden" animateIn="show" initiallyVisible={true} animateOnce={true}>
         <div className='portfolio mx-auto' id="portfolio">
         <p className='mt-5 pt-3 mb-4' style={{textAlign: 'start', color: '#fff', fontSize: 'xx-large', fontWeight: '900'}} >Portfolio</p>
+        <Projects title="Orion Management" description="A clone of google classroom I did as a Freelance project, This was a full stack application and was my first freelance project"
+            // live="https://timelinecalendar.netlify.app"
+            github="https://github.com/Anuragchandra221/Orion-Project-Management-System"
+            img1={require('../assets/orionManagement.png')}
+            img2={require('../assets/orionguide.png')}
+            img3={require('../assets/orionproject.png')}
+        />
         <Projects title="Timeline Calendar" description="This was a front end project REACT JS which shows the functionalities of a
             calendar with timeline. Later I added Django and made it a full stack project. The backend is hosted on Railway with a postgress database and the frontend is hosted on surge. "
             live="https://timelinecalendar.netlify.app"
             github="https://github.com/Anuragchandra221/Calendar-React-Js"
-            img={require('../assets/calendar home.png')}
+            img1={require('../assets/calendar home.png')}
+            img2={require('../assets/calendarlogin.png')}
+            img3={require('../assets/calendarsignup.png')}
         />
         <div className='moreButton mx-auto' id="more" onClick={show}>More <FontAwesomeIcon  icon={faArrowDown} /></div>
         <div id="moreProjects" className=' moreProjectsHide'>
@@ -34,14 +43,17 @@ function Portfolio() {
               "
               live="https://moviemac.netlify.app"
               github="https://github.com/Anuragchandra221/MovieMania"
-              img={require('../assets/mm home.png')}
+              img1={require('../assets/mm home.png')}
+              img2={require('../assets/mmsearch.png')}
+              img3={require('../assets/mmmovie.png')}
           />
           <Projects title="Christmas Friend Generator" description="Built a christmas friend generator for our class. This was my first full
               stack project using django and React
               "
               live="https://bemyfriend.surge.sh"
               github="https://github.com/Anuragchandra221/Christmas-friend-generator-frontend"
-              img={require('../assets/cf generator.png')}
+              img1={require('../assets/cf generator.png')}
+              img2={require('../assets/christmasfrnds.png')}
           />
           <div className='moreButton mx-auto' onClick={hide}>Less <FontAwesomeIcon  icon={faArrowUp} /></div>
         </div>
