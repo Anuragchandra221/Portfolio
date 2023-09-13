@@ -21,7 +21,7 @@ function FirstPage() {
                 </div>
             </div>
             <div className='col-12 col-lg-6 mb-4 mb-lg-0 mt-2 mt-lg-0'>
-                <img className='image' src={require('../assets/jason-strull-KQ0C6WtEGlo-unsplash.jpg')} alt="working man" />
+                <img className='image' src={require('../assets/anurag.jpg')} alt="working man" />
             </div>
         </div>
     </div>
