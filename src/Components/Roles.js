@@ -11,7 +11,7 @@ function Roles() {
             <RoleCard img={require('../assets/gdsc.png')} position="Web Lead" org="GDSC VAST" period="2023 Sep-Present"/>
           </div>
           <div className='mt-3 mt-md-0 col-md-6 justify-content-center justify-content-md-end'>
-            <RoleCard img={require('../assets/mulearn.jpeg')} position="Web IG Lead" org="Gtech Mulearn VAST" period="2023 Jan-Present"/>
+            <RoleCard img={require('../assets/mulearn.jpeg')} position="Web IG Lead" org="Gtech Mulearn VAST" period="2023 March-Present"/>
           </div>
         </div>
         <div className='mt-3 mt-md-0 col-12 col-md-6 mx-auto'>
