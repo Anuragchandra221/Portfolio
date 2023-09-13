@@ -4,8 +4,8 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 function Roles() {
   return (
-    <AnimationOnScroll animateIn="animate__fadeInLeftBig" initiallyVisible={true} animateOnce={true} className='hidden portfolio mx-auto' id="roles">
-        <p className='mt-5 pt-3 mb-5' style={{textAlign: 'center', color: '#fff', fontSize: 'xx-large', fontWeight: '900'}} >Roles and Reslponsibilities</p>
+    <AnimationOnScroll animateIn="animate__fadeInLeftBig" initiallyVisible={true} animateOnce={true} className='hidden portfolio mx-auto' >
+        <p id="roles" className='mt-5 pt-3 mb-5' style={{textAlign: 'center', color: '#fff', fontSize: 'xx-large', fontWeight: '900'}} >Roles and Reslponsibilities</p>
         <div className='d-flex row'>
           <div className='col-md-6 justify-content-center justify-content-md-end'>
             <RoleCard img={require('../assets/gdsc.png')} position="Web Lead" org="GDSC VAST" period="2023 Sep-Present"/>
