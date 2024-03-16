@@ -16,7 +16,7 @@ function Connect() {
                 <a style={{textDecoration: 'none'}} href="https://github.com/Anuragchandra221" target="_blank"><p className='colorText'><i class="fa-brands fa-github"></i> Anuragchandra221</p></a>
             </div>
             <div className='col-6 col-lg-3 '>
-                <a style={{textDecoration: 'none'}} href="https://www.instagram.com/_a_nu_ra_g__/" target="_blank"><p className='colorText'><i class="fa-brands fa-instagram"></i> _a_nu_ra_g__</p></a>
+                <a style={{textDecoration: 'none'}} href="https://www.instagram.com/anuragchandra.me/" target="_blank"><p className='colorText'><i class="fa-brands fa-instagram"></i> anuragchandra.me</p></a>
             </div>
             <div className='col-6 col-lg-3 '>
                 <a style={{textDecoration: 'none'}} href="https://in.linkedin.com/in/anurag-chandra-52a4a3205?trk=people-guest_people_search-card" target="_blank"><p className='colorText'><i class="fa-brands fa-linkedin"></i> Anurag Chandra</p></a>
