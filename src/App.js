@@ -5,6 +5,7 @@ import Portfolio from './Components/Portfolio';
 import Certifications from './Components/Certifications';
 import Connect from './Components/Connect';
 import Roles from './Components/Roles';
+import Music from './Components/Music';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Roles/>
         <Portfolio />
         <Certifications />
+        <Music/>
         <Connect />
       </div>
   );

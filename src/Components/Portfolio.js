@@ -21,6 +21,13 @@ function Portfolio() {
     <AnimationOnScroll className="hidden" animateIn="show" initiallyVisible={true} animateOnce={true}>
         <div className='portfolio mx-auto' id="portfolio">
         <p className='mt-5 pt-3 mb-4' style={{textAlign: 'start', color: '#fff', fontSize: 'xx-large', fontWeight: '900'}} >Portfolio</p>
+        <Projects title="Musespace Raga Detection" description="A tool for detecting carnatic raga in a song."
+            // live="https://timelinecalendar.netlify.app"
+            github="https://github.com/Anuragchandra221/Carnatic-Raga-Detection"
+            img1={require('../assets/musespace.png')}
+            img2={require('../assets/musespace 2.png')}
+            img3={require('../assets/musespace.png')}
+        />
         <Projects title="Orion Management" description="A clone of google classroom I did as a Freelance project, This was a full stack application and was my first freelance project"
             // live="https://timelinecalendar.netlify.app"
             github="https://github.com/Anuragchandra221/Orion-Project-Management-System"
@@ -30,7 +37,7 @@ function Portfolio() {
         />
         <Projects title="Timeline Calendar" description="This was a front end project REACT JS which shows the functionalities of a
             calendar with timeline. Later I added Django and made it a full stack project. The backend is hosted on Railway with a postgress database and the frontend is hosted on surge. "
-            live="https://timelinecalendar.netlify.app"
+            // live="https://timelinecalendar.netlify.app"
             github="https://github.com/Anuragchandra221/Calendar-React-Js"
             img1={require('../assets/calendar home.png')}
             img2={require('../assets/calendarlogin.png')}
