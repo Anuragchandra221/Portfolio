@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <FirstPage />
         <Roles/>
-        <Portfolio />
+        <Portfolio /> 
         <Certifications />
         <Music/>
         <Connect />

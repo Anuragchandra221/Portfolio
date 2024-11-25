@@ -1,23 +1,62 @@
 .role-img{
     /* width: 20%;
     height: 20%; */
-    min-width: 200px;
-    min-height: 200px;
-    width: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    width: 90%;
     border-radius: 50% ;
+}
+.role-wrap{
+    width: 40%;
 }
 .role-title{
     color: #fff;
-    font-size: xx-large;
+    font-size: larger;
     font-weight: 800;
 }
 .role-org{
     color: #fff;
-    font-size: larger;
+    font-size: large; 
     font-weight: 700;
 }
 .role-period{
     color: #fff;
-    font-size: large;
+    font-size: medium;
     font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+    .role-img{
+        /* width: 20%;
+        height: 20%; */
+        min-width: 100px;
+        min-height: 100px;
+        width: 80%;
+        border-radius: 50% ;
+    }
+    .role-title{
+        color: #fff;
+        font-size: x-large;
+        font-weight: 800;
+    }
+    .role-wrap{
+        width: 30%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .role-img{
+        /* width: 20%;
+        height: 20%; */
+        min-width: 100px;
+        min-height: 100px;
+        width: 70%;
+        border-radius: 50% ;
+    }
+    .role-title{
+        color: #fff;
+        font-size: x-large;
+        font-weight: 800;
+    }
+    .role-wrap{
+        width: 30%;
+    }
 }

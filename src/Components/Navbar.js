@@ -24,6 +24,9 @@ function Navbar() {
                 <a className="nav-link mr-lg-3" href="#certification">Certifications</a>
             </li>
             <li className="nav-item">
+                <a className="nav-link mr-lg-3" href="#music">Music</a>
+            </li>
+            <li className="nav-item">
                 <a className="nav-link mr-lg-3" href="#talk">Connect</a>
             </li>
             </ul>
